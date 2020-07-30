@@ -1,4 +1,41 @@
 .title{
-  font-size: 40px;
+  font-size: 150px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  color: purple;
+  width: 100%;
+ }
+
+.txt{
+  font-size: 30px;
+}
+
+.row{
+  display: flex;
+  justify-content:flex-start;
+  height: 160px;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.vacancy{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+  color: red;
+}
+.img{
+  width: 100px;
+}
+.backround{
+background-image: url(../img/кафе.jpg);
+height: 1500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.menu{
+  height: 1000px;
 }
