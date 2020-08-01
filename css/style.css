@@ -1,3 +1,23 @@
+/* *{для браузера */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ body{
+
+ }
+ .container{
+   width: 100%;
+   margin: : 0 auto;
+ }
+
+/* шапка сайта */
+
+header{
+  min-height: 700px;
+}
 .title{
   font-size: 150px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -8,35 +28,55 @@
   width: 100%;
  }
 
-.txt{
-  font-size: 30px;
-}
+ .backround{
+  background-image: url(../img/наруто.jpg);
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+/* раздел меню
+ */
+ section.menu{
+   height:100%;
+   background: lightblue;
+ }
 
 .row{
   display: flex;
-  justify-content:center;
-  height: 160px;
+  justify-content:flex-start;
+  height: 300px;
   font-size: 30px;
   margin: 30px;
 }
 
+.group-menu{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.group-menu>img{
+width: 310px;
+height: 200px;
+}
+
+.title-group-menu{
+  align-self: center;
+  margin:0 10px 0 10px ;
+}
 .vacancy{
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   color: red;
 }
+
 .img{
   width: 100px;
 }
-.backround{
-background-image: url(../img/наруто.jpg);
-height: 1500px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-}
+
 .menu{
   height: 1000px;
 }
