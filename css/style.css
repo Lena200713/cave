@@ -14,7 +14,7 @@
 
 .row{
   display: flex;
-  justify-content:flex-start;
+  justify-content:center;
   height: 160px;
   font-size: 30px;
   margin: 30px;
@@ -35,6 +35,7 @@ background-image: url(../img/кафе.jpg);
 height: 1500px;
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center;
 }
 .menu{
   height: 1000px;
