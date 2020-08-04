@@ -5,6 +5,13 @@
     box-sizing: border-box;
   }
 
+@import url(global.css);
+
+html{
+  /* значение по умолчанию */
+  font-size: 10px;
+}
+
  body{
 
  }
@@ -54,6 +61,8 @@ header{
   margin: 30px;
   display: flex;
   justify-content: center;
+  width: 800px;
+  height: 200px;
 }
 
 .group-menu>img{
@@ -79,4 +88,10 @@ height: 200px;
 
 .menu{
   height: 1000px;
+}
+
+.el-menuhot-food{
+  display: inline-block;
+  display: flex;
+  justify-content:center;
 }
