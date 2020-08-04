@@ -91,7 +91,6 @@ height: 200px;
 }
 
 .el-menuhot-food{
-  display: inline-block;
   display: flex;
-  justify-content:center;
+  justify-content: flex-end;
 }
