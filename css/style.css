@@ -17,13 +17,14 @@ html{
  }
  .container{
    width: 100%;
-   margin: : 0 auto;
+   margin: 0 auto;
  }
 
 /* шапка сайта */
 
 header{
   min-height: 700px;
+  background-color: #4f313a;
 }
 .title{
   font-size: 150px;
@@ -31,8 +32,9 @@ header{
   display: inline-block;
   font-weight: bold;
   text-align: center;
-  color: purple;
+  color:#ff0835;
   width: 100%;
+  font-family: 'Pangolin', cursive;
  }
 
  .backround{
@@ -46,7 +48,7 @@ header{
  */
  section.menu{
    height:100%;
-   background: lightblue;
+   background:#4f313a;
  }
 
 .row{
@@ -55,6 +57,7 @@ header{
   height: 300px;
   font-size: 30px;
   margin: 30px;
+  color:#ffffff;
 }
 
 .group-menu{
@@ -90,7 +93,31 @@ height: 200px;
   height: 1000px;
 }
 
+.card{
+  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+}
+
+.card:hover{
+  transform-origin: left top;
+  margin-top: -10px;
+  margin-left: 20px;
+transition: margin-left 130ms;
+transition: margin-top 130ms;
+box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
+}
+
 .el-menuhot-food{
   display: flex;
   justify-content: flex-end;
+}
+
+img{
+  border-radius: 5px;
+  width: 350px;
+  height: 220px;
+}
+
+section{
+  background: #4f313a;
+  font-family: 'Pangolin', cursive;
 }
