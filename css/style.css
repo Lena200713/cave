@@ -13,7 +13,7 @@ html{
 }
 
  body{
-
+  cursor:url(../img/icons/icons8-croissant-64.png), auto;
  }
  .container{
    width: 100%;
@@ -38,7 +38,7 @@ header{
  }
 
  .backround{
-  background-image: url(../img/наруто.jpg);
+  background-image: url(../img/picher/наруто.jpg);
   height: 1500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +94,7 @@ height: 200px;
 }
 
 .card{
-  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+  cursor:url(../img/icons/icons8-croissant-64.png), auto;
 }
 
 .card:hover{
@@ -107,6 +107,11 @@ box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
 }
 
 .el-menuhot-food{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.el-menucold-food{
   display: flex;
   justify-content: flex-end;
 }
