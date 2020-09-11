@@ -1,11 +1,11 @@
-/* *{для браузера */
+ @import url(global.css);
+  /* *{для браузера */
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-@import url(global.css);
 
 html{
   /* значение по умолчанию */
@@ -23,23 +23,27 @@ html{
 /* шапка сайта */
 
 header{
-  min-height: 700px;
   background-color: #4f313a;
+  text-align: center;
 }
 .title{
-  font-size: 150px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  display: inline-block;
-  font-weight: bold;
+  font-size: 7em;
   text-align: center;
-  color:#ff0835;
-  width: 100%;
-  font-family: 'Pangolin', cursive;
+  background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em ;
+  border: 3px solid transparent;
+  border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+  border-image-slice: 1;
+  margin: 20px;
+
  }
 
  .backround{
   background-image: url(../img/picher/наруто.jpg);
-  height: 1500px;
+  height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -49,28 +53,26 @@ header{
  section.menu{
    height:100%;
    background:#4f313a;
+   padding: 0 10 0 10 px;
  }
 
-.row{
-  display: flex;
-  justify-content:flex-start;
-  height: 300px;
+.grid-menu{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   font-size: 30px;
-  margin: 30px;
   color:#ffffff;
 }
 
 .group-menu{
-  margin: 30px;
+  margin: 6%;
   display: flex;
   justify-content: center;
-  width: 800px;
-  height: 200px;
 }
 
 .group-menu>img{
-width: 310px;
-height: 200px;
+  width: 310px;
+  height: 200px;
 }
 
 .title-group-menu{
@@ -101,19 +103,8 @@ height: 200px;
   transform-origin: left top;
   margin-top: -10px;
   margin-left: 20px;
-transition: margin-left 130ms;
-transition: margin-top 130ms;
-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
-}
-
-.el-menuhot-food{
-  display: flex;
-  justify-content: flex-start;
-}
-
-.el-menucold-food{
-  display: flex;
-  justify-content: flex-end;
+  transition:130ms;
+  box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
 }
 
 img{
@@ -125,4 +116,10 @@ img{
 section{
   background: #4f313a;
   font-family: 'Pangolin', cursive;
+}
+
+.grid-descripction-menu{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
